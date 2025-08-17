@@ -1,0 +1,17 @@
+{
+  "name": "yetter-image-generation",
+  "version": "1.0.0",
+  "description": "Image generation using Yetter AI Qwen model",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@yetter/client": "^0.0.8"
+  },
+  "keywords": ["yetter", "ai", "image-generation", "qwen"],
+  "author": "",
+  "license": "MIT"
+}
