@@ -21,6 +21,12 @@ You can run each model in two ways:
 npm install
 ```
 
+- For using Yetter AI API in your own projects:
+
+```bash
+npm install --save @yetter/client
+```
+
 - Set your API key (either works):
 
 ```bash
