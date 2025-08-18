@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { yetter } from "@yetter/client";
 import fs from 'fs/promises';
 import path from 'path';

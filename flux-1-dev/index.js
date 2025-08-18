@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { yetter } from "@yetter/client";
 
 // Configure the Yetter client with API key

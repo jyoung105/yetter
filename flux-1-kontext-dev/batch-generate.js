@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { generateEditedImage } from "./index.js";
 import fs from 'fs/promises';
 import path from 'path';
@@ -27,7 +28,7 @@ async function saveImageData(imageData, filename) {
       const response = await fetch(imageData.url);
       const buffer = await response.arrayBuffer();
       const ext = imageData.content_type ? 
-        imageData.content_type.split('/')[1] : 'webp';
+        imageData.content_type.split('/')[1] : 'png';
       const finalFilename = filename.replace(/\.[^.]+$/, `.${ext}`);
       await fs.writeFile(path.join(RESULTS_DIR, finalFilename), Buffer.from(buffer));
       return { 
@@ -117,7 +118,7 @@ async function processEditPrompts() {
         const savedImages = [];
         if (result.images && result.images.length > 0) {
           for (let j = 0; j < result.images.length; j++) {
-            const filename = `edit_${editNumber.toString().padStart(2, '0')}_${path.basename(imageName, path.extname(imageName))}_result_${j + 1}.webp`;
+            const filename = `edit_${editNumber.toString().padStart(2, '0')}_${path.basename(imageName, path.extname(imageName))}_result_${j + 1}.png`;
             const saveResult = await saveImageData(result.images[j], filename);
             savedImages.push({ filename, ...saveResult });
           }
