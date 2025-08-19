@@ -1,0 +1,295 @@
+{
+  "model": "runware-qwen-image",
+  "totalPrompts": 10,
+  "successfulGenerations": 10,
+  "failedGenerations": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 355.641,
+  "totalModelExecutionTime": 277.397,
+  "averageTimePerPrompt": 35.5641,
+  "averageTimePerImage": 27.7397,
+  "totalCost": 0.14129999999999998,
+  "timestamp": "2025-08-19T05:57:12.464Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "prompt": "A serene mountain landscape at sunrise with a mirror-like lake reflecting snow-capped peaks",
+      "success": true,
+      "executionTime": 27.253,
+      "wallClockTime": 27.267,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_01_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0147
+      }
+    },
+    {
+      "promptNumber": 2,
+      "prompt": "Cyberpunk street scene with neon lights and flying vehicles in a futuristic Tokyo",
+      "success": true,
+      "executionTime": 25.364,
+      "wallClockTime": 25.366,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_02_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    },
+    {
+      "promptNumber": 3,
+      "prompt": "Portrait of a wise elderly wizard with a long white beard holding a glowing crystal staff",
+      "success": true,
+      "executionTime": 25.64,
+      "wallClockTime": 25.642,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_03_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    },
+    {
+      "promptNumber": 4,
+      "prompt": "Underwater coral reef teeming with colorful tropical fish and sea turtles",
+      "success": true,
+      "executionTime": 38.126,
+      "wallClockTime": 38.128,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_04_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0154
+      }
+    },
+    {
+      "promptNumber": 5,
+      "prompt": "Medieval castle on a hilltop during a dramatic thunderstorm with lightning",
+      "success": true,
+      "executionTime": 25.037,
+      "wallClockTime": 25.041,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_05_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    },
+    {
+      "promptNumber": 6,
+      "prompt": "Steampunk airship floating above Victorian London with brass gears and steam engines",
+      "success": true,
+      "executionTime": 25.941,
+      "wallClockTime": 25.944,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_06_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    },
+    {
+      "promptNumber": 7,
+      "prompt": "Abstract geometric art with vibrant colors and impossible shapes inspired by M.C. Escher",
+      "success": true,
+      "executionTime": 28.972,
+      "wallClockTime": 28.973,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_07_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0154
+      }
+    },
+    {
+      "promptNumber": 8,
+      "prompt": "Cozy coffee shop interior with warm lighting, bookshelvee coffee steam",
+      "success": true,
+      "executionTime": 27.439,
+      "wallClockTime": 27.442,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_08_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    },
+    {
+      "promptNumber": 9,
+      "prompt": "Fantasy dragon perched on a mountain peak breathing fire into a starry night sky",
+      "success": true,
+      "executionTime": 28.771,
+      "wallClockTime": 28.774,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_09_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0154
+      }
+    },
+    {
+      "promptNumber": 10,
+      "prompt": "Photorealistic bowl of fresh ramen with steam rising, soft bokeh background",
+      "success": true,
+      "executionTime": 24.854,
+      "wallClockTime": 24.857,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_10_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-qwen-image",
+        "pipeline_complete": true,
+        "model": "runware:108@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 50,
+        "CFGScale": 4,
+        "scheduler": "UniPCMultistepScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0134
+      }
+    }
+  ]
+}

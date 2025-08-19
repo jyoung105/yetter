@@ -1,0 +1,509 @@
+{
+  "model": "runware-flux-1-kontext-dev",
+  "mode": "edit",
+  "promptsFile": "example_inputs/edit-prompts.txt",
+  "totalPrompts": 10,
+  "successfulGenerations": 10,
+  "failedGenerations": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 508.573,
+  "totalModelExecutionTime": 276.009,
+  "averageTimePerPrompt": 50.857299999999995,
+  "averageTimePerImage": 27.600900000000003,
+  "totalCost": 0.1966,
+  "referenceImagesUsed": [
+    "image_01.jpg",
+    "image_02.jpg",
+    "image_03.jpg",
+    "image_04.jpg",
+    "image_05.jpg",
+    "image_06.jpg",
+    "image_07.jpg",
+    "image_08.jpg",
+    "image_09.jpg",
+    "image_10.jpg"
+  ],
+  "timestamp": "2025-08-19T05:46:39.642Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "prompt": "Make the cat very fat",
+      "success": true,
+      "executionTime": 30.206,
+      "wallClockTime": 30.221,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_01_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6418059
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0214,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 1208936
+        }
+      }
+    },
+    {
+      "promptNumber": 2,
+      "prompt": "Edit the word \"Lover\" to \"Hater\"",
+      "success": true,
+      "executionTime": 20.496,
+      "wallClockTime": 20.503,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_02_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.015,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 154818
+        }
+      }
+    },
+    {
+      "promptNumber": 3,
+      "prompt": "Remove the two green signs",
+      "success": true,
+      "executionTime": 32.343,
+      "wallClockTime": 32.348,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_03_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6418059
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0214,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 1403416
+        }
+      }
+    },
+    {
+      "promptNumber": 4,
+      "prompt": "This image in the style of Van Gogh's \"The Starry Night\"",
+      "success": true,
+      "executionTime": 31.004,
+      "wallClockTime": 31.013,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_04_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6418059
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0214,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 575569
+        }
+      }
+    },
+    {
+      "promptNumber": 5,
+      "prompt": "Remove the house in the background",
+      "success": true,
+      "executionTime": 31.301,
+      "wallClockTime": 31.309,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_05_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6551567
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.022,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 346238
+        }
+      }
+    },
+    {
+      "promptNumber": 6,
+      "prompt": "Remove the red square only",
+      "success": true,
+      "executionTime": 32.713,
+      "wallClockTime": 32.72,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_06_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6565564
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0226,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 208469
+        }
+      }
+    },
+    {
+      "promptNumber": 7,
+      "prompt": "Add a dog sitting on the chair on the left",
+      "success": true,
+      "executionTime": 29.084,
+      "wallClockTime": 29.091,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_07_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6440324
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0214,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 359442
+        }
+      }
+    },
+    {
+      "promptNumber": 8,
+      "prompt": "She is now riding a bike through a forest on a dirt path",
+      "success": true,
+      "executionTime": 19.281,
+      "wallClockTime": 19.284,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_08_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4176635
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.015,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 87839
+        }
+      }
+    },
+    {
+      "promptNumber": 9,
+      "prompt": "Place this object on a marble pedestal in a museum inside of a glass display case",
+      "success": true,
+      "executionTime": 30.099,
+      "wallClockTime": 30.106,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_09_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 6551567
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.0214,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 614871
+        }
+      }
+    },
+    {
+      "promptNumber": 10,
+      "prompt": "Show me an aerial view of this from above the mech",
+      "success": true,
+      "executionTime": 19.482,
+      "wallClockTime": 19.487,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_10_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4176635
+        }
+      ],
+      "referenceImagesUsed": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg",
+        "image_06.jpg",
+        "image_07.jpg",
+        "image_08.jpg",
+        "image_09.jpg",
+        "image_10.jpg"
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-kontext-dev",
+        "pipeline_complete": true,
+        "model": "runware:106@1",
+        "steps": 28,
+        "CFGScale": 2.5,
+        "scheduler": "Default",
+        "outputFormat": "PNG",
+        "advancedFeatures": {
+          "guidanceEndStepPercentage": 75
+        },
+        "cost": 0.015,
+        "referenceImages": {
+          "count": 1,
+          "formats": [
+            "jpeg"
+          ],
+          "totalSize": 161310
+        }
+      }
+    }
+  ]
+}

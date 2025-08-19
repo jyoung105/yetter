@@ -1,0 +1,295 @@
+{
+  "model": "runware-flux-1-dev",
+  "totalPrompts": 10,
+  "successfulGenerations": 10,
+  "failedGenerations": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 121.685,
+  "totalModelExecutionTime": 64.459,
+  "averageTimePerPrompt": 12.1685,
+  "averageTimePerImage": 6.4459,
+  "totalCost": 0.038,
+  "timestamp": "2025-08-19T09:28:29.249Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "prompt": "A serene mountain landscape at sunrise with a mirror-like lake reflecting snow-capped peaks",
+      "success": true,
+      "executionTime": 6.766,
+      "wallClockTime": 6.781,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_01_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 2,
+      "prompt": "Cyberpunk street scene with neon lights and flying vehicles in a futuristic Tokyo",
+      "success": true,
+      "executionTime": 6.657,
+      "wallClockTime": 6.661,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_02_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 3,
+      "prompt": "Portrait of a wise elderly wizard with a long white beard holding a glowing crystal staff",
+      "success": true,
+      "executionTime": 7.363,
+      "wallClockTime": 7.366,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_03_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 4,
+      "prompt": "Underwater coral reef teeming with colorful tropical fish and sea turtles",
+      "success": true,
+      "executionTime": 6.462,
+      "wallClockTime": 6.466,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_04_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 5,
+      "prompt": "Medieval castle on a hilltop during a dramatic thunderstorm with lightning",
+      "success": true,
+      "executionTime": 7.155,
+      "wallClockTime": 7.16,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_05_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 6,
+      "prompt": "Steampunk airship floating above Victorian London with brass gears and steam engines",
+      "success": true,
+      "executionTime": 6.558,
+      "wallClockTime": 6.561,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_06_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 7,
+      "prompt": "Abstract geometric art with vibrant colors and impossible shapes inspired by M.C. Escher",
+      "success": true,
+      "executionTime": 5.244,
+      "wallClockTime": 5.247,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_07_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 8,
+      "prompt": "Cozy coffee shop interior with warm lighting, bookshelvee coffee steam",
+      "success": true,
+      "executionTime": 4.74,
+      "wallClockTime": 4.743,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_08_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 9,
+      "prompt": "Fantasy dragon perched on a mountain peak breathing fire into a starry night sky",
+      "success": true,
+      "executionTime": 6.758,
+      "wallClockTime": 6.762,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_09_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    },
+    {
+      "promptNumber": 10,
+      "prompt": "Photorealistic bowl of fresh ramen with steam rising, soft bokeh background",
+      "success": true,
+      "executionTime": 6.756,
+      "wallClockTime": 6.76,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_10_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4202201
+        }
+      ],
+      "metadata": {
+        "model_name": "runware-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "runware:101@1",
+        "width": 1024,
+        "height": 1024,
+        "steps": 28,
+        "CFGScale": 3.5,
+        "scheduler": "FlowMatchEulerDiscreteScheduler",
+        "outputFormat": "PNG",
+        "cost": 0.0038
+      }
+    }
+  ]
+}
