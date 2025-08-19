@@ -1,0 +1,304 @@
+{
+  "model": "fal-flux-kontext-dev",
+  "totalEdits": 10,
+  "successfulEdits": 10,
+  "failedEdits": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 134.891,
+  "totalModelExecutionTime": 88.12199999999999,
+  "averageTimePerEdit": 13.489099999999999,
+  "nsfwDetections": 10,
+  "timestamp": "2025-08-19T02:00:31.836Z",
+  "results": [
+    {
+      "editNumber": 1,
+      "sourceImage": "image_01.jpg",
+      "editPrompt": "Make the cat very fat",
+      "success": true,
+      "executionTime": 10.712,
+      "wallClockTime": 10.715,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_01_image_01_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2810912
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 2,
+      "sourceImage": "image_02.jpg",
+      "editPrompt": "Edit the word \"Lover\" to \"Hater\"",
+      "success": true,
+      "executionTime": 5.832,
+      "wallClockTime": 5.835,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_02_image_02_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1337247
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 3,
+      "sourceImage": "image_03.jpg",
+      "editPrompt": "Remove the two green signs",
+      "success": true,
+      "executionTime": 10.244,
+      "wallClockTime": 10.247,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_03_image_03_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2808906
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 4,
+      "sourceImage": "image_04.jpg",
+      "editPrompt": "This image in the style of Van Gogh's \"The Starry Night\"",
+      "success": true,
+      "executionTime": 10.2,
+      "wallClockTime": 10.206,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_04_image_04_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 4797272
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 5,
+      "sourceImage": "image_05.jpg",
+      "editPrompt": "Remove the house in the background",
+      "success": true,
+      "executionTime": 8.539,
+      "wallClockTime": 8.542,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_05_image_05_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2138022
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 6,
+      "sourceImage": "image_06.jpg",
+      "editPrompt": "Remove the red square only",
+      "success": true,
+      "executionTime": 12.976,
+      "wallClockTime": 12.98,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_06_image_06_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2099176
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 7,
+      "sourceImage": "image_07.jpg",
+      "editPrompt": "Add a dog sitting on the chair on the left",
+      "success": true,
+      "executionTime": 10.437,
+      "wallClockTime": 10.441,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_07_image_07_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2931989
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 8,
+      "sourceImage": "image_08.jpg",
+      "editPrompt": "She is now riding a bike through a forest on a dirt path",
+      "success": true,
+      "executionTime": 5.338,
+      "wallClockTime": 5.339,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_08_image_08_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1417704
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 9,
+      "sourceImage": "image_09.jpg",
+      "editPrompt": "Place this object on a marble pedestal in a museum inside of a glass display case",
+      "success": true,
+      "executionTime": 8.274,
+      "wallClockTime": 8.279,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_09_image_09_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1764107
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    },
+    {
+      "editNumber": 10,
+      "sourceImage": "image_10.jpg",
+      "editPrompt": "Show me an aerial view of this from above the mech",
+      "success": true,
+      "executionTime": 5.57,
+      "wallClockTime": 5.574,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_10_image_10_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1458615
+        }
+      ],
+      "metadata": {
+        "model_name": "fal-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "fal-ai/flux/dev/image-to-image",
+        "image_size": "square_hd",
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "has_nsfw_concepts": [
+          false
+        ]
+      }
+    }
+  ]
+}
