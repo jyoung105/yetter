@@ -194,6 +194,55 @@ const qwen = await generateQwen("illustration of a dragon under starry sky", { n
 ```
 
 
+## Provider comparison and performance (plots)
+
+This repo includes a small control-group to compare Yetter AI's managed API against several provider wrappers using the same model families. Results are summarized in `plots/` and were generated from the batch scripts in `model/` (Yetter) and `control_group/` (other providers).
+
+### What the providers are
+- **Yetter AI (this repo's `model/` folder)**: Direct, managed API with tuned defaults and optimized routing. Designed for consistent latency and simple DX (streaming or subscribe flows).
+- **FAL / Replicate / Runware / Wavespeed (under `control_group/`)**: Third‑party execution layers that host or route to similar models. Behavior can differ due to their queueing, cold starts, concurrency, and streaming mechanics.
+
+### How to read the plots
+- **First image waiting time**: Time from job submission to the first completed image. Lower is better.
+- **Time per image (boxplot)**: Distribution of per‑image latencies across a 10‑prompt batch. Narrower boxes indicate more consistent performance.
+- **Total time for 10 images**: End‑to‑end wall‑clock time to process a 10‑prompt batch. Lower is better.
+
+### Results at a glance (focus on Yetter)
+- In our runs captured here, **Yetter** consistently showed:
+  - **Lower time‑to‑first‑image**,
+  - **More stable per‑image times** (tighter distribution), and
+  - **Lower total time** to complete the 10‑image batch.
+
+Your results may vary depending on network, region, model settings, and provider account limits.
+
+![First image waiting time](plots/first_image_waiting_time.png)
+
+![Time per image distribution](plots/time_per_image_boxplot.png)
+
+![Total time for 10 images](plots/total_time_10_images.png)
+
+### Reproduce these plots
+1) Install dependencies and set required API keys (e.g., `YTR_API_KEY` for Yetter; set credentials for other providers as needed).
+
+```bash
+npm install
+
+# Example: run Flux 1 Dev (t2i) batches across providers
+node model/flux-1-dev/batch-generate.js
+node control_group/fal/flux-1-dev/batch-generate.js
+node control_group/replicate/flux-1-dev/batch-generate.js
+node control_group/runware/flux-1-dev/batch-generate.js
+node control_group/wavespeed/flux-1-dev/batch-generate.js
+
+# Optionally run the i2i (kontext) and qwen-image variants, too
+
+# Generate summary plots
+python3 visualize_performance.py
+# or
+bash run_analysis.sh
+```
+
+
 ## Tips and troubleshooting
 
 - **API key errors**: Ensure `YTR_API_KEY` or `REACT_APP_YTR_API_KEY` is exported in your shell before running scripts.
