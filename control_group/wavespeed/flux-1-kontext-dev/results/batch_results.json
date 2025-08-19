@@ -1,0 +1,284 @@
+{
+  "model": "wavespeed-flux-kontext-dev-ultra-fast",
+  "totalPrompts": 10,
+  "successfulEdits": 10,
+  "failedEdits": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 117.407,
+  "totalModelExecutionTime": 87.96099999999998,
+  "averageTimePerPrompt": 11.7407,
+  "averageTimePerImage": 8.7961,
+  "timestamp": "2025-08-19T01:53:23.328Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "editPrompt": "Make the cat very fat",
+      "inputImagePath": "example_inputs/edit-images/image_01.jpg",
+      "success": true,
+      "executionTime": 9.976,
+      "wallClockTime": 10.128,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_01_image_01_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1745583
+        }
+      ],
+      "requestId": "3cd8a50c2a1b4c8691bbfc50b2e938b3",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 2,
+      "editPrompt": "Edit the word \"Lover\" to \"Hater\"",
+      "inputImagePath": "example_inputs/edit-images/image_02.jpg",
+      "success": true,
+      "executionTime": 7.978,
+      "wallClockTime": 8.006,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_02_image_02_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1361543
+        }
+      ],
+      "requestId": "d53842bd2c2e43d7a48be1d466f0c81e",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 3,
+      "editPrompt": "Remove the two green signs",
+      "inputImagePath": "example_inputs/edit-images/image_03.jpg",
+      "success": true,
+      "executionTime": 7.525,
+      "wallClockTime": 7.728,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_03_image_03_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1737663
+        }
+      ],
+      "requestId": "51cd419593e34e9299131c0e3b721ab2",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 4,
+      "editPrompt": "This image in the style of Van Gogh's \"The Starry Night\"",
+      "inputImagePath": "example_inputs/edit-images/image_04.jpg",
+      "success": true,
+      "executionTime": 8.135,
+      "wallClockTime": 8.279,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_04_image_04_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2860888
+        }
+      ],
+      "requestId": "c5aa031a7a8640518ca6d159841ec78f",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 5,
+      "editPrompt": "Remove the house in the background",
+      "inputImagePath": "example_inputs/edit-images/image_05.jpg",
+      "success": true,
+      "executionTime": 10.402,
+      "wallClockTime": 10.47,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_05_image_05_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1774279
+        }
+      ],
+      "requestId": "4baf2e3686ab44c6b61b73e01004a595",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 6,
+      "editPrompt": "Remove the red square only",
+      "inputImagePath": "example_inputs/edit-images/image_06.jpg",
+      "success": true,
+      "executionTime": 8.049,
+      "wallClockTime": 8.086,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_06_image_06_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 994379
+        }
+      ],
+      "requestId": "254c4e3d3dde4b759245b884c445e4f6",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 7,
+      "editPrompt": "Add a dog sitting on the chair on the left",
+      "inputImagePath": "example_inputs/edit-images/image_07.jpg",
+      "success": true,
+      "executionTime": 12.056,
+      "wallClockTime": 12.159,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_07_image_07_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1734718
+        }
+      ],
+      "requestId": "25b54e5b5a1942bf85c548520a848374",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 8,
+      "editPrompt": "She is now riding a bike through a forest on a dirt path",
+      "inputImagePath": "example_inputs/edit-images/image_08.jpg",
+      "success": true,
+      "executionTime": 7.811,
+      "wallClockTime": 7.821,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_08_image_08_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1491922
+        }
+      ],
+      "requestId": "0e58783e458c459ba720d396e2c9a7b1",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 9,
+      "editPrompt": "Place this object on a marble pedestal in a museum inside of a glass display case",
+      "inputImagePath": "example_inputs/edit-images/image_09.jpg",
+      "success": true,
+      "executionTime": 8.774,
+      "wallClockTime": 8.867,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_09_image_09_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1135952
+        }
+      ],
+      "requestId": "c38b800c33ba4143b827bbf5fd0e7975",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    },
+    {
+      "promptNumber": 10,
+      "editPrompt": "Show me an aerial view of this from above the mech",
+      "inputImagePath": "example_inputs/edit-images/image_10.jpg",
+      "success": true,
+      "executionTime": 7.255,
+      "wallClockTime": 7.29,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_10_image_10_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1577830
+        }
+      ],
+      "requestId": "44b81ebb9bff4d8684ea492c7c3d38ea",
+      "metadata": {
+        "model_name": "wavespeed-flux-kontext-dev-ultra-fast",
+        "pipeline_complete": true,
+        "num_inference_steps": 28,
+        "guidance_scale": 2.5,
+        "seed": 42,
+        "output_format": "png",
+        "safety_checker": false
+      }
+    }
+  ]
+}
