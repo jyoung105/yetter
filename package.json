@@ -9,8 +9,11 @@
     "test": "node test.js"
   },
   "dependencies": {
+    "@fal-ai/client": "^1.6.2",
+    "@runware/sdk-js": "^1.1.44",
     "@yetter/client": "^0.0.8",
-    "dotenv": "^16.6.1"
+    "dotenv": "^16.6.1",
+    "replicate": "^0.34.1"
   },
   "keywords": [
     "yetter",
