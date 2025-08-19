@@ -1,0 +1,274 @@
+{
+  "model": "replicate-flux-1-dev",
+  "totalPrompts": 10,
+  "successfulGenerations": 10,
+  "failedGenerations": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 37.587,
+  "totalModelExecutionTime": 17.789,
+  "averageTimePerPrompt": 3.7587,
+  "averageTimePerImage": 1.7789000000000001,
+  "timestamp": "2025-08-19T03:09:25.229Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "prompt": "A serene mountain landscape at sunrise with a mirror-like lake reflecting snow-capped peaks",
+      "success": true,
+      "executionTime": 2.536,
+      "wallClockTime": 2.537,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_01_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1124410
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 2,
+      "prompt": "Cyberpunk street scene with neon lights and flying vehicles in a futuristic Tokyo",
+      "success": true,
+      "executionTime": 1.512,
+      "wallClockTime": 1.513,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_02_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1839822
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 3,
+      "prompt": "Portrait of a wise elderly wizard with a long white beard holding a glowing crystal staff",
+      "success": true,
+      "executionTime": 1.511,
+      "wallClockTime": 1.511,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_03_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1410316
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 4,
+      "prompt": "Underwater coral reef teeming with colorful tropical fish and sea turtles",
+      "success": true,
+      "executionTime": 2.019,
+      "wallClockTime": 2.02,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_04_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1752068
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 5,
+      "prompt": "Medieval castle on a hilltop during a dramatic thunderstorm with lightning",
+      "success": true,
+      "executionTime": 1.83,
+      "wallClockTime": 1.831,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_05_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1281297
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 6,
+      "prompt": "Steampunk airship floating above Victorian London with brass gears and steam engines",
+      "success": true,
+      "executionTime": 1.71,
+      "wallClockTime": 1.711,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_06_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1556182
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 7,
+      "prompt": "Abstract geometric art with vibrant colors and impossible shapes inspired by M.C. Escher",
+      "success": true,
+      "executionTime": 1.5,
+      "wallClockTime": 1.501,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_07_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1552251
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 8,
+      "prompt": "Cozy coffee shop interior with warm lighting, bookshelvee coffee steam",
+      "success": true,
+      "executionTime": 1.881,
+      "wallClockTime": 1.882,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_08_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1166219
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 9,
+      "prompt": "Fantasy dragon perched on a mountain peak breathing fire into a starry night sky",
+      "success": true,
+      "executionTime": 1.611,
+      "wallClockTime": 1.613,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_09_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1552160
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    },
+    {
+      "promptNumber": 10,
+      "prompt": "Photorealistic bowl of fresh ramen with steam rising, soft bokeh background",
+      "success": true,
+      "executionTime": 1.679,
+      "wallClockTime": 1.68,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_10_image_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1078514
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-1-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux.1-dev:b0306d92aa025bb747dc74162f3c27d6ed83798e08e5f8977adf3d859d0536a3",
+        "guidance": 3.5,
+        "image_size": 1024,
+        "aspect_ratio": "1:1",
+        "num_inference_steps": 28,
+        "speed_mode": "Blink of an eye 👁️"
+      }
+    }
+  ]
+}

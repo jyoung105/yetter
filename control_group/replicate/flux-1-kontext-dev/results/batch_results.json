@@ -1,0 +1,263 @@
+{
+  "model": "replicate-flux-kontext-dev",
+  "totalEdits": 10,
+  "successfulEdits": 10,
+  "failedEdits": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 68.653,
+  "totalModelExecutionTime": 39.105,
+  "averageTimePerEdit": 6.8653,
+  "timestamp": "2025-08-19T05:24:18.024Z",
+  "results": [
+    {
+      "editNumber": 1,
+      "sourceImage": "image_01.jpg",
+      "editPrompt": "Make the cat very fat",
+      "success": true,
+      "executionTime": 5.3,
+      "wallClockTime": 5.302,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_01_image_01_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1615474
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 2,
+      "sourceImage": "image_02.jpg",
+      "editPrompt": "Edit the word \"Lover\" to \"Hater\"",
+      "success": true,
+      "executionTime": 3.025,
+      "wallClockTime": 3.028,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_02_image_02_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1257870
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 3,
+      "sourceImage": "image_03.jpg",
+      "editPrompt": "Remove the two green signs",
+      "success": true,
+      "executionTime": 4.953,
+      "wallClockTime": 4.962,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_03_image_03_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1611351
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 4,
+      "sourceImage": "image_04.jpg",
+      "editPrompt": "This image in the style of Van Gogh's \"The Starry Night\"",
+      "success": true,
+      "executionTime": 3.748,
+      "wallClockTime": 3.75,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_04_image_04_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 2152927
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 5,
+      "sourceImage": "image_05.jpg",
+      "editPrompt": "Remove the house in the background",
+      "success": true,
+      "executionTime": 3.913,
+      "wallClockTime": 3.918,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_05_image_05_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1688004
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 6,
+      "sourceImage": "image_06.jpg",
+      "editPrompt": "Remove the red square only",
+      "success": true,
+      "executionTime": 3.452,
+      "wallClockTime": 3.455,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_06_image_06_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1001640
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 7,
+      "sourceImage": "image_07.jpg",
+      "editPrompt": "Add a dog sitting on the chair on the left",
+      "success": true,
+      "executionTime": 3.475,
+      "wallClockTime": 3.48,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_07_image_07_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1748915
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 8,
+      "sourceImage": "image_08.jpg",
+      "editPrompt": "She is now riding a bike through a forest on a dirt path",
+      "success": true,
+      "executionTime": 3.38,
+      "wallClockTime": 3.384,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_08_image_08_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1251085
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 9,
+      "sourceImage": "image_09.jpg",
+      "editPrompt": "Place this object on a marble pedestal in a museum inside of a glass display case",
+      "success": true,
+      "executionTime": 4.657,
+      "wallClockTime": 4.663,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_09_image_09_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1059518
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    },
+    {
+      "editNumber": 10,
+      "sourceImage": "image_10.jpg",
+      "editPrompt": "Show me an aerial view of this from above the mech",
+      "success": true,
+      "executionTime": 3.202,
+      "wallClockTime": 3.205,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "edit_10_image_10_result_1.png",
+          "success": true,
+          "type": "url",
+          "size": 1659100
+        }
+      ],
+      "metadata": {
+        "model_name": "replicate-flux-kontext-dev",
+        "pipeline_complete": true,
+        "model": "prunaai/flux-kontext-dev:2f311ad6069d6cb2ec28d46bb0d1da5148a983b56f4f2643d2d775d39d11e44b",
+        "guidance_scale": 2.5,
+        "steps": 28,
+        "seed": 42
+      }
+    }
+  ]
+}
