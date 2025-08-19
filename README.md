@@ -215,9 +215,9 @@ This repo includes a small control-group to compare Yetter AI's managed API agai
 
 Your results may vary depending on network, region, model settings, and provider account limits.
 
-![First image waiting time](plots/first_image_waiting_time.png)
-
 ![Time per image distribution](plots/time_per_image_boxplot.png)
+
+![First image waiting time](plots/first_image_waiting_time.png)
 
 ![Total time for 10 images](plots/total_time_10_images.png)
 
