@@ -1,0 +1,231 @@
+{
+  "totalPrompts": 10,
+  "successfulGenerations": 10,
+  "failedGenerations": 0,
+  "totalImages": 10,
+  "totalExecutionTime": 61.047,
+  "averageTimePerPrompt": 6.104699999999999,
+  "timestamp": "2025-08-19T02:39:27.345Z",
+  "results": [
+    {
+      "promptNumber": 1,
+      "prompt": "A serene mountain landscape at sunrise with a mirror-like lake reflecting snow-capped peaks",
+      "success": true,
+      "executionTime": 3.8050029277802,
+      "wallClockTime": 5.078,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_01_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 113952,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 2,
+      "prompt": "Cyberpunk street scene with neon lights and flying vehicles in a futuristic Tokyo",
+      "success": true,
+      "executionTime": 3.7624969482422,
+      "wallClockTime": 4.867,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_02_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 133476,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 3,
+      "prompt": "Portrait of a wise elderly wizard with a long white beard holding a glowing crystal staff",
+      "success": true,
+      "executionTime": 3.6999051570892,
+      "wallClockTime": 4.957,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_03_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 113598,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 4,
+      "prompt": "Underwater coral reef teeming with colorful tropical fish and sea turtles",
+      "success": true,
+      "executionTime": 3.8125159740448,
+      "wallClockTime": 5.141,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_04_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 188890,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 5,
+      "prompt": "Medieval castle on a hilltop during a dramatic thunderstorm with lightning",
+      "success": true,
+      "executionTime": 3.7188529968262,
+      "wallClockTime": 4.835,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_05_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 63820,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 6,
+      "prompt": "Steampunk airship floating above Victorian London with brass gears and steam engines",
+      "success": true,
+      "executionTime": 3.9014461040497,
+      "wallClockTime": 5.005,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_06_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 164828,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 7,
+      "prompt": "Abstract geometric art with vibrant colors and impossible shapes inspired by M.C. Escher",
+      "success": true,
+      "executionTime": 3.6671659946442,
+      "wallClockTime": 4.779,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_07_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 41276,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 8,
+      "prompt": "Cozy coffee shop interior with warm lighting, bookshelvee coffee steam",
+      "success": true,
+      "executionTime": 3.7156300544739,
+      "wallClockTime": 4.752,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_08_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 99016,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 9,
+      "prompt": "Fantasy dragon perched on a mountain peak breathing fire into a starry night sky",
+      "success": true,
+      "executionTime": 3.7306520938873,
+      "wallClockTime": 4.838,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_09_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 103790,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    },
+    {
+      "promptNumber": 10,
+      "prompt": "Photorealistic bowl of fresh ramen with steam rising, soft bokeh background",
+      "success": true,
+      "executionTime": 4.3910710811615,
+      "wallClockTime": 5.479,
+      "imagesGenerated": 1,
+      "savedImages": [
+        {
+          "filename": "prompt_10_image_1.png",
+          "success": true,
+          "type": "object_url",
+          "size": 78908,
+          "dimensions": "1024x1024",
+          "content_type": "image/webp"
+        }
+      ],
+      "metadata": {
+        "model_name": "qwen_image_cuda",
+        "pipeline_complete": true
+      }
+    }
+  ]
+}
